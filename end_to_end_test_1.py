@@ -3,7 +3,7 @@ from groq import Groq
 import subprocess
 
 # Inicialização do cliente Groq, que age como um agente de IA aqui
-client = Groq(api_key=os.environ.get("GROQ_API_KEY", "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"))
+client = Groq(api_key=os.environ.get("GROQ_API_KEY", "your_api_key"))
 
 def agente_automatizador(descricao_inicial, dominio, email, senha):
     # Etapa 1: Gerar caso de teste
