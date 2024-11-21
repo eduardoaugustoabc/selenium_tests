@@ -6,7 +6,7 @@ import unittest
 import time
 
 # Configurar a chave de API do Groq
-client = Groq(api_key=os.environ.get("GROQ_API_KEY", "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"))
+client = Groq(api_key=os.environ.get("GROQ_API_KEY", "your_api_key"))
 
 def gerar_caso_de_teste_e_codigo(descricao):
     # 1. Gerar o caso de teste a partir da descrição
