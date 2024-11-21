@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import time
 
 # Inicialização do cliente Groq
-client = Groq(api_key=os.environ.get("GROQ_API_KEY", "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"))
+client = Groq(api_key=os.environ.get("GROQ_API_KEY", "your_api_key"))
 
 def extrair_elementos_principais(url):
     driver = webdriver.Chrome()
